@@ -1,0 +1,40 @@
+# --- Dependencies ---
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+# (Keep package-lock.json, it's good practice to commit it, but ignore others if you mix managers)
+
+# --- Environment Variables (CRITICAL) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Database (SQLite) ---
+# Do not commit your actual database file
+*.db
+*.db-journal
+# But DO commit your prisma/migrations folder!
+
+# --- Build Outputs ---
+# Backend build
+dist/
+# Frontend build (Next.js)
+.next/
+out/
+build/
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# --- System & Editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* File Layout - CRITICAL for our folder structure */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Environment Settings */
+    "target": "es2016",
+    "module": "commonjs",     /* Changed from nodenext for easier Express compatibility */
+    "esModuleInterop": true,  /* Allows importing CommonJS modules like 'express' easily */
+    
+    /* Strict Typechecking */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,     /* Skips checking types inside node_modules (saves time) */
+    "forceConsistentCasingInFileNames": true
+  }
+  "include": ["src/**/*"]
+}
