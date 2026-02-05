@@ -103,7 +103,7 @@ npx prisma migrate dev --name init
 npx nodemon src/index.ts
 ```
 
-Server runs on: http://localhost:5000
+![Server runs on: http://localhost:5000](/assets/2026-02-05-181043_hyprshot.png)
 
 ### 3. Frontend Setup
 
@@ -119,7 +119,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs on: http://localhost:3000
+![Frontend runs on: http://localhost:3000](/assets/2026-02-05-181036_hyprshot.png)
 
 ## API Endpoints
 
