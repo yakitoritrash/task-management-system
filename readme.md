@@ -104,7 +104,7 @@ npx nodemon src/index.ts
 ```
 
 ![Server runs on: http://localhost:5000](/assets/2026-02-05-181043_hyprshot.png)
-
+Server runs on: http://localhost:5000
 ### 3. Frontend Setup
 
 Open a new terminal, navigate to the client folder, and start the UI.
@@ -120,7 +120,7 @@ npm run dev
 ```
 
 ![Frontend runs on: http://localhost:3000](/assets/2026-02-05-181036_hyprshot.png)
-
+Frontend runs on: http://localhost:3000
 ## API Endpoints
 
 | Method | Endpoint | Description |
